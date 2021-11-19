@@ -1,0 +1,80 @@
+@import 'style.css';
+@import url("https://fonts.googleapis.com/css2?family=Metal&family=Montserrat+Alternates:wght@300&family=Poppins:wght@200&display=swap");
+.alumini{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    /* position: absolute; */
+}
+.head{
+    padding: 3rem;
+    color: #001e6c;
+    font-family: 'Roboto Condensed',sans-serif;
+}
+.review {
+    display:flex ;
+    flex-direction: column;   
+}
+/* .review:nth-child(odd){
+  margin-left: 0em;
+  margin-right: 16em;
+}
+.review:nth-child(even){
+    margin-right: 0em;
+    margin-left: 16em;
+} */
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    padding: 2rem;
+    margin: 1rem;
+    box-shadow: 0px 5px 5px 2px grey;
+    border-radius: 2rem;
+}
+.box img{
+    padding: 1rem 1rem ;
+    border-radius: 15rem;
+    box-shadow: 0px 5px 5px 2px grey ;
+
+}
+.box a{
+    text-decoration: none;
+    line-height: 2rem;
+    color: #5089C6 ;
+}
+.text{ 
+    padding: 1.4em ;
+}
+.text h2{
+    color: #FFAA4C;
+    font-family:'metal', cursive ;
+}
+.text h3{
+    color:#001e6c ;
+    font-family: 'poppins',sans-serif;
+    line-height: 1.5rem;
+}
+@media screen and (max-width:500px){
+    body{
+        overflow-x: hidden;
+    }
+    .alumini{
+        display: flex;
+        flex-direction: column;
+    }
+    .review {
+        display:flex ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        align-items:  center;
+    }
+}
